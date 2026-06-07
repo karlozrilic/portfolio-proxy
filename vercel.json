@@ -1,5 +1,4 @@
 {
     "framework": null,
-    "outputDirectory": "public",
-    "toolbar": false
+    "outputDirectory": "public"
 }
