@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { setCorsHeaders } from './cors_headers';
-import { isAuthorized } from './authorization';
+import { setCorsHeaders } from './cors_headers.js';
+import { isAuthorized } from './authorization.js';
 
 type Handler = (req: VercelRequest, res: VercelResponse) => Promise<VercelResponse | void>;
 
