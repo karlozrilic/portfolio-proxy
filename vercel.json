@@ -1,20 +1,4 @@
 {
     "framework": null,
-    "outputDirectory": "public",
-    "rewrites": [
-        {
-            "source": "/README.md",
-            "destination": "/README.md"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/",
-            "dest": "/public/index.html"
-        },
-        {
-            "src": "/README.md",
-            "dest": "/README.md"
-        }
-    ]
+    "outputDirectory": "public"
 }

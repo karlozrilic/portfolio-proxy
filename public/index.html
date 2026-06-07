@@ -11,7 +11,7 @@
     <div id="content"></div>
 
     <script>
-        fetch('/README.md')
+        fetch('https://raw.githubusercontent.com/karlozrilic/portfolio-proxy/refs/heads/master/README.md')
             .then(res => res.text())
             .then(text => {
                 document.getElementById('content').innerHTML = marked.parse(text);
