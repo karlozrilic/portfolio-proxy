@@ -1,0 +1,8 @@
+{
+    "name": "porfolio-proxy",
+    "version": "1.0.0",
+    "type": "module",
+    "devDependencies": {
+        "@vercel/node": "^5.8.12"
+    }
+}
