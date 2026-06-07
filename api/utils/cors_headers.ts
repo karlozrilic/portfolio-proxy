@@ -13,7 +13,6 @@ export function setCorsHeaders(req: VercelRequest, res: VercelResponse) {
         res.setHeader('Access-Control-Allow-Origin', origin);
     }
 
-    res.setHeader('Access-Control-Allow-Origin', process.env.ALLOWED_ORIGIN || '');
     res.setHeader('Access-Control-Allow-Methods', 'GET');
     res.setHeader('Access-Control-Allow-Headers', 'x-proxy-secret');
 }
