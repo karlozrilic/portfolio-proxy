@@ -6,7 +6,7 @@ type Handler = (req: VercelRequest, res: VercelResponse) => Promise<VercelRespon
 
 export function withProxy(handler: Handler) {
     return async (req: VercelRequest, res: VercelResponse) => {
-        setCorsHeaders(res);
+        setCorsHeaders(req, res);
 
         if (!isAuthorized(req)) {
             return res.status(401).json({ error: 'Unauthorized' });
